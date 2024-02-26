@@ -1,3 +1,20 @@
 [Params.Sidebar]
 emoji = '🏡'
 avatar = { enabled = true, local = true, src = 'img/avatar.jpeg' }
+subtitle = 'consistency'
+
+[Params.Footer]
+customText = 'Maintained with 🤍'
+
+[menu]
+[[menu.main]]
+    name = 'Home'
+    url = '/'
+    weight = 10
+    identifier = 'Home'
+[[menu.social]]
+    url = 'https://github.com/e6d1fe'
+    weight = 20
+    identifier = 'GitHub'
+    [menu.social.params]
+        newTab = true
