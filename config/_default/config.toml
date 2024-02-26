@@ -1,0 +1,3 @@
+[Params.Sidebar]
+emoji = '🏡'
+avatar = { enabled = true, local = true, src = 'img/avatar.jpeg' }
