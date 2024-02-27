@@ -5,6 +5,7 @@ draft = false
 author = 'Sehyun'
 comments = true
 readingTime = true
+image = 'cover.jpeg'
 +++
 
 ### Hi! My name is Sehyun.
