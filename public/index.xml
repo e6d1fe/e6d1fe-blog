@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>e6d1fe</title>
+        <link>https://e6d1fe.github.io/e6d1fe-blog/</link>
+        <description>Recent content on e6d1fe</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language><atom:link href="https://e6d1fe.github.io/e6d1fe-blog/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>About this blog</title>
+        <link>https://e6d1fe.github.io/e6d1fe-blog/about/</link>
+        <pubDate>Tue, 27 Feb 2024 16:54:26 +0900</pubDate>
+        
+        <guid>https://e6d1fe.github.io/e6d1fe-blog/about/</guid>
+        <description>&lt;h3 id=&#34;hi-my-name-is-sehyun&#34;&gt;Hi! My name is Sehyun.&lt;/h3&gt;
+&lt;p&gt;I&amp;rsquo;m an undergrad student at Yonsei University in Seoul, South Korea.&lt;br&gt;
+I&amp;rsquo;m a CTM (Creative Technology Management) major, which is a combination of IT and management studies.&lt;/p&gt;
+&lt;p&gt;I mainly study frontend web development, and I&amp;rsquo;m interested in the following topics:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://img.shields.io/badge/HTML5-e34f26?style=flat&amp;amp;logo=html5&amp;amp;logoColor=white%22&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;HTML&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://img.shields.io/badge/CSS3-1572b6?style=flat&amp;amp;logo=css3&amp;amp;logoColor=white&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;CSS&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://img.shields.io/badge/JavaScript-f0db4f?style=flat&amp;amp;logo=javascript&amp;amp;logoColor=white&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;JavaScript&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://img.shields.io/badge/TypeScript-3178c6?style=flat&amp;amp;logo=typescript&amp;amp;logoColor=white&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;TypeScript&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://img.shields.io/badge/React-61dbfb?style=flat&amp;amp;logo=react&amp;amp;logoColor=white&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;React&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://img.shields.io/badge/Flutter-02569B?style=flat&amp;amp;logo=Flutter&amp;amp;logoColor=white&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Flutter&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://img.shields.io/badge/Dart-0175C2?style=flat&amp;amp;logo=dart&amp;amp;logoColor=white&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Dart&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;You can reach me via &lt;a class=&#34;link&#34; href=&#34;mailto:chem.x.1215@gmail.com&#34; &gt;email&lt;/a&gt;.&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
