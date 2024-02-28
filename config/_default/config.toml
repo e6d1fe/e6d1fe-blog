@@ -12,9 +12,3 @@ customText = 'Maintained with 🤍'
     url = '/'
     weight = 10
     identifier = 'Home'
-[[menu.social]]
-    url = 'https://github.com/e6d1fe'
-    weight = 20
-    identifier = 'GitHub'
-    [menu.social.params]
-        newTab = true

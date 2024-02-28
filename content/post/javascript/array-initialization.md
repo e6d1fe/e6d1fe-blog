@@ -1,5 +1,8 @@
 +++
+categories = ['JavaScript']
+project_url = 'https://e6d1fe.github.io/e6d1fe-blog/post/javascript/'
 title = '배열 초기화'
+tags = ['JavaScript', 'array']
 date = 2024-02-28T16:54:26+09:00
 draft = false
 author = 'Sehyun'
