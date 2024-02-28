@@ -2,12 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://e6d1fe.github.io/e6d1fe-blog/about/</loc>
+    <loc>https://e6d1fe.github.io/e6d1fe-blog/</loc>
+    <lastmod>2024-02-28T16:54:26+09:00</lastmod>
+  </url><url>
+    <loc>https://e6d1fe.github.io/e6d1fe-blog/post/</loc>
+    <lastmod>2024-02-28T16:54:26+09:00</lastmod>
+  </url><url>
+    <loc>https://e6d1fe.github.io/e6d1fe-blog/post/javascript/array-initialization/</loc>
+    <lastmod>2024-02-28T16:54:26+09:00</lastmod>
+  </url><url>
+    <loc>https://e6d1fe.github.io/e6d1fe-blog/post/about/</loc>
     <lastmod>2024-02-27T16:54:26+09:00</lastmod>
   </url><url>
     <loc>https://e6d1fe.github.io/e6d1fe-blog/categories/</loc>
-  </url><url>
-    <loc>https://e6d1fe.github.io/e6d1fe-blog/</loc>
   </url><url>
     <loc>https://e6d1fe.github.io/e6d1fe-blog/tags/</loc>
   </url>

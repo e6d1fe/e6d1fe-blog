@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>e6d1fe</title>
-        <link>https://e6d1fe.github.io/e6d1fe-blog/</link>
-        <description>Recent content on e6d1fe</description>
+        <title>Posts on e6d1fe</title>
+        <link>https://e6d1fe.github.io/e6d1fe-blog/post/</link>
+        <description>Recent content in Posts on e6d1fe</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Wed, 28 Feb 2024 16:54:26 +0900</lastBuildDate><atom:link href="https://e6d1fe.github.io/e6d1fe-blog/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 28 Feb 2024 16:54:26 +0900</lastBuildDate><atom:link href="https://e6d1fe.github.io/e6d1fe-blog/post/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>배열 초기화</title>
         <link>https://e6d1fe.github.io/e6d1fe-blog/post/javascript/array-initialization/</link>
         <pubDate>Wed, 28 Feb 2024 16:54:26 +0900</pubDate>
