@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>script on e6d1fe</title>
+        <link>https://e6d1fe.github.io/e6d1fe-blog/tags/script/</link>
+        <description>Recent content in script on e6d1fe</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Fri, 01 Mar 2024 16:54:26 +0900</lastBuildDate><atom:link href="https://e6d1fe.github.io/e6d1fe-blog/tags/script/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Script Tag</title>
+        <link>https://e6d1fe.github.io/e6d1fe-blog/post/javascript/script-tag/</link>
+        <pubDate>Fri, 01 Mar 2024 16:54:26 +0900</pubDate>
+        
+        <guid>https://e6d1fe.github.io/e6d1fe-blog/post/javascript/script-tag/</guid>
+        <description>&lt;h1 id=&#34;script-tag&#34;&gt;&lt;code&gt;&amp;lt;Script&amp;gt;&lt;/code&gt; Tag&lt;/h1&gt;
+&lt;p&gt;&lt;code&gt;&amp;lt;Script&amp;gt;&lt;/code&gt; : &lt;code&gt;html&lt;/code&gt; 파일에서 자바스크립트 파일을 링크하는 용도로 쓰이는 태그&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;html&lt;/code&gt; 파일을 파싱할 때, 맨 위에서부터 아래로 내려가며 &lt;code&gt;script&lt;/code&gt; 태그에 다다르면 링크된 자바스크립트를 다운로드하고, 다운로드된 자바스크립트를 실행하고, 다시 나머지 &lt;code&gt;html&lt;/code&gt; 파일을 파싱하는 것으로 돌아감&lt;/p&gt;
+&lt;p&gt;하지만 이럴 경우 생길 수 있는 문제: 자바스크립트 파일에 이벤트 리스너 등이 있고, &lt;code&gt;script&lt;/code&gt; 태그의 위치가 그 이벤트 리스너가 있는 부분보다 위에 있다면, 아직 정의되지 않은 element에 이벤트 리스너를 붙이는 꼴이 되기 때문에 의도대로 동작하지 않을 수가 있다!&lt;/p&gt;
+&lt;p&gt;이럴 때의 해결방법:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;window.onload() =&amp;gt; {}&lt;/code&gt; 사용하기&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;script&lt;/code&gt; 태그를 &lt;code&gt;body&lt;/code&gt; 태그 가장 아래에 배치하기&lt;/li&gt;
+&lt;li&gt;아니면 &lt;code&gt;script&lt;/code&gt; 태그에 attribute를 추가함으로써 해결할 수도 있다.&lt;br&gt;
+➡️ &lt;code&gt;async&lt;/code&gt;, &lt;code&gt;defer&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;script-async-src-&#34;&gt;&lt;code&gt;&amp;lt;script async src=&amp;quot;...&amp;quot; /&amp;gt;&lt;/code&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;html&lt;/code&gt;이 파싱되는 동안 자바스크립트를 다운로드하고, 다운로드가 완료된 시점에 파싱을 멈추고 자바스크립트를 실행함&lt;br&gt;
+실행이 완료되면 다시 &lt;code&gt;html&lt;/code&gt; 파싱으로 돌아감&lt;/p&gt;
+&lt;h2 id=&#34;script-defer-src-&#34;&gt;&lt;code&gt;&amp;lt;script defer src=&amp;quot;...&amp;quot; /&amp;gt;&lt;/code&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;html&lt;/code&gt;이 파싱되는 동안 자바스크립트를 다운로드하고(여기까지는 &lt;code&gt;async&lt;/code&gt;와 동일), 파싱이 완료되기까지 기다린 후에 다운로드된 자바스크립트를 실행함&lt;br&gt;
+➡️ DOM이 생성된 후에 실행되기 때문에 위에서 언급한 문제는 발생하지 않는다!&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

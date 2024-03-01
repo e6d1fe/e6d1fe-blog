@@ -5,6 +5,55 @@
         <link>https://e6d1fe.github.io/e6d1fe-blog/tags/</link>
         <description>Recent content in Tags on e6d1fe</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language><atom:link href="https://e6d1fe.github.io/e6d1fe-blog/tags/index.xml" rel="self" type="application/rss+xml" />
+        <language>en-us</language>
+        <lastBuildDate>Fri, 01 Mar 2024 16:54:26 +0900</lastBuildDate><atom:link href="https://e6d1fe.github.io/e6d1fe-blog/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>async</title>
+        <link>https://e6d1fe.github.io/e6d1fe-blog/tags/async/</link>
+        <pubDate>Fri, 01 Mar 2024 16:54:26 +0900</pubDate>
+        
+        <guid>https://e6d1fe.github.io/e6d1fe-blog/tags/async/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>await</title>
+        <link>https://e6d1fe.github.io/e6d1fe-blog/tags/await/</link>
+        <pubDate>Fri, 01 Mar 2024 16:54:26 +0900</pubDate>
+        
+        <guid>https://e6d1fe.github.io/e6d1fe-blog/tags/await/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>JavaScript</title>
+        <link>https://e6d1fe.github.io/e6d1fe-blog/tags/javascript/</link>
+        <pubDate>Fri, 01 Mar 2024 16:54:26 +0900</pubDate>
+        
+        <guid>https://e6d1fe.github.io/e6d1fe-blog/tags/javascript/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>promise</title>
+        <link>https://e6d1fe.github.io/e6d1fe-blog/tags/promise/</link>
+        <pubDate>Fri, 01 Mar 2024 16:54:26 +0900</pubDate>
+        
+        <guid>https://e6d1fe.github.io/e6d1fe-blog/tags/promise/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>script</title>
+        <link>https://e6d1fe.github.io/e6d1fe-blog/tags/script/</link>
+        <pubDate>Fri, 01 Mar 2024 16:54:26 +0900</pubDate>
+        
+        <guid>https://e6d1fe.github.io/e6d1fe-blog/tags/script/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>array</title>
+        <link>https://e6d1fe.github.io/e6d1fe-blog/tags/array/</link>
+        <pubDate>Wed, 28 Feb 2024 16:54:26 +0900</pubDate>
+        
+        <guid>https://e6d1fe.github.io/e6d1fe-blog/tags/array/</guid>
+        <description></description>
+        </item>
+        
     </channel>
 </rss>

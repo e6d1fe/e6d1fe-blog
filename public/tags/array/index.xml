@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>array on e6d1fe</title>
+        <link>https://e6d1fe.github.io/e6d1fe-blog/tags/array/</link>
+        <description>Recent content in array on e6d1fe</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Wed, 28 Feb 2024 16:54:26 +0900</lastBuildDate><atom:link href="https://e6d1fe.github.io/e6d1fe-blog/tags/array/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>배열 초기화</title>
+        <link>https://e6d1fe.github.io/e6d1fe-blog/post/javascript/array-initialization/</link>
+        <pubDate>Wed, 28 Feb 2024 16:54:26 +0900</pubDate>
+        
+        <guid>https://e6d1fe.github.io/e6d1fe-blog/post/javascript/array-initialization/</guid>
+        <description>&lt;h1 id=&#34;배열-초기화-이중배열&#34;&gt;배열 초기화 (이중배열)&lt;/h1&gt;
+&lt;p&gt;배열을 초기화할 때 쓸 수 있는 두 가지 방법:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Array.prototype.fill()&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Array.from()&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;arrayprototypefill&#34;&gt;&lt;code&gt;Array.prototype.fill()&lt;/code&gt;&lt;/h2&gt;
+&lt;p&gt;배열을 채울 값으로 객체를 받을 경우 그 &lt;strong&gt;참조만 복사&lt;/strong&gt;해서 배열을 채운다.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;function solution(n, arr1, arr2) {
+    const map = new Array(n).fill(new Array(n).fill(&amp;#34;*&amp;#34;));
+    map[1][2] = &amp;#34;H&amp;#34;;
+    return map;
+}
+
+solution(5)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;위 코드의 결과가&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;[&amp;#39;*&amp;#39;, &amp;#39;*&amp;#39;, &amp;#39;*&amp;#39;, &amp;#39;*&amp;#39;, &amp;#39;*&amp;#39;],
+[&amp;#39;*&amp;#39;, &amp;#39;*&amp;#39;, &amp;#39;H&amp;#39;, &amp;#39;*&amp;#39;, &amp;#39;*&amp;#39;],
+[&amp;#39;*&amp;#39;, &amp;#39;*&amp;#39;, &amp;#39;*&amp;#39;, &amp;#39;*&amp;#39;, &amp;#39;*&amp;#39;],
+[&amp;#39;*&amp;#39;, &amp;#39;*&amp;#39;, &amp;#39;*&amp;#39;, &amp;#39;*&amp;#39;, &amp;#39;*&amp;#39;],
+[&amp;#39;*&amp;#39;, &amp;#39;*&amp;#39;, &amp;#39;*&amp;#39;, &amp;#39;*&amp;#39;, &amp;#39;*&amp;#39;]
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;이게 아니라&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;[&amp;#39;*&amp;#39;, &amp;#39;*&amp;#39;, &amp;#39;H&amp;#39;, &amp;#39;*&amp;#39;, &amp;#39;*&amp;#39;],
+[&amp;#39;*&amp;#39;, &amp;#39;*&amp;#39;, &amp;#39;H&amp;#39;, &amp;#39;*&amp;#39;, &amp;#39;*&amp;#39;],
+[&amp;#39;*&amp;#39;, &amp;#39;*&amp;#39;, &amp;#39;H&amp;#39;, &amp;#39;*&amp;#39;, &amp;#39;*&amp;#39;],
+[&amp;#39;*&amp;#39;, &amp;#39;*&amp;#39;, &amp;#39;H&amp;#39;, &amp;#39;*&amp;#39;, &amp;#39;*&amp;#39;],
+[&amp;#39;*&amp;#39;, &amp;#39;*&amp;#39;, &amp;#39;H&amp;#39;, &amp;#39;*&amp;#39;, &amp;#39;*&amp;#39;]
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;이렇게 나온다는 뜻이다! (이렇게 배열을 초기화하면 배열 속의 모든 배열이 똑같은 참조값을 가지게 되어버리기 때문)&lt;/p&gt;
+&lt;p&gt;그래서 의도대로 &lt;code&gt;map[1][2] = &amp;quot;H&lt;/code&gt;를 했을 때 &lt;code&gt;map[1][2]&lt;/code&gt; 자리의 아이템만 &lt;code&gt;H&lt;/code&gt;로 바꾸고 싶다면 &lt;code&gt;Array.prototype.fill()&lt;/code&gt;이 아닌 &lt;code&gt;Array.from()&lt;/code&gt;을 사용해 배열을 초기화해야 한다.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;function solution(n, arr1, arr2) {
+    const map = Array.from({ length: n }, () =&amp;gt; Array(n).fill(&amp;#34;*&amp;#34;));
+    map[1][2] = &amp;#34;H&amp;#34;;
+    return map;
+}
+&lt;/code&gt;&lt;/pre&gt;</description>
+        </item>
+        
+    </channel>
+</rss>

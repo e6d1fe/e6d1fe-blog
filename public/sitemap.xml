@@ -2,10 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://e6d1fe.github.io/e6d1fe-blog/tags/async/</loc>
+    <lastmod>2024-03-01T16:54:26+09:00</lastmod>
+  </url><url>
+    <loc>https://e6d1fe.github.io/e6d1fe-blog/post/javascript/async-await/</loc>
+    <lastmod>2024-03-01T16:54:26+09:00</lastmod>
+  </url><url>
+    <loc>https://e6d1fe.github.io/e6d1fe-blog/tags/await/</loc>
+    <lastmod>2024-03-01T16:54:26+09:00</lastmod>
+  </url><url>
+    <loc>https://e6d1fe.github.io/e6d1fe-blog/categories/</loc>
+    <lastmod>2024-03-01T16:54:26+09:00</lastmod>
+  </url><url>
     <loc>https://e6d1fe.github.io/e6d1fe-blog/</loc>
-    <lastmod>2024-02-28T16:54:26+09:00</lastmod>
+    <lastmod>2024-03-01T16:54:26+09:00</lastmod>
+  </url><url>
+    <loc>https://e6d1fe.github.io/e6d1fe-blog/tags/javascript/</loc>
+    <lastmod>2024-03-01T16:54:26+09:00</lastmod>
+  </url><url>
+    <loc>https://e6d1fe.github.io/e6d1fe-blog/categories/javascript/</loc>
+    <lastmod>2024-03-01T16:54:26+09:00</lastmod>
   </url><url>
     <loc>https://e6d1fe.github.io/e6d1fe-blog/post/</loc>
+    <lastmod>2024-03-01T16:54:26+09:00</lastmod>
+  </url><url>
+    <loc>https://e6d1fe.github.io/e6d1fe-blog/tags/promise/</loc>
+    <lastmod>2024-03-01T16:54:26+09:00</lastmod>
+  </url><url>
+    <loc>https://e6d1fe.github.io/e6d1fe-blog/post/javascript/promise/</loc>
+    <lastmod>2024-03-01T16:54:26+09:00</lastmod>
+  </url><url>
+    <loc>https://e6d1fe.github.io/e6d1fe-blog/tags/script/</loc>
+    <lastmod>2024-03-01T16:54:26+09:00</lastmod>
+  </url><url>
+    <loc>https://e6d1fe.github.io/e6d1fe-blog/post/javascript/script-tag/</loc>
+    <lastmod>2024-03-01T16:54:26+09:00</lastmod>
+  </url><url>
+    <loc>https://e6d1fe.github.io/e6d1fe-blog/tags/</loc>
+    <lastmod>2024-03-01T16:54:26+09:00</lastmod>
+  </url><url>
+    <loc>https://e6d1fe.github.io/e6d1fe-blog/tags/array/</loc>
     <lastmod>2024-02-28T16:54:26+09:00</lastmod>
   </url><url>
     <loc>https://e6d1fe.github.io/e6d1fe-blog/post/javascript/array-initialization/</loc>
@@ -13,9 +49,5 @@
   </url><url>
     <loc>https://e6d1fe.github.io/e6d1fe-blog/post/about/</loc>
     <lastmod>2024-02-27T16:54:26+09:00</lastmod>
-  </url><url>
-    <loc>https://e6d1fe.github.io/e6d1fe-blog/categories/</loc>
-  </url><url>
-    <loc>https://e6d1fe.github.io/e6d1fe-blog/tags/</loc>
   </url>
 </urlset>
