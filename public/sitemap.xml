@@ -2,6 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://e6d1fe.github.io/e6d1fe-blog/categories/</loc>
+    <lastmod>2024-03-02T16:54:26+09:00</lastmod>
+  </url><url>
+    <loc>https://e6d1fe.github.io/e6d1fe-blog/</loc>
+    <lastmod>2024-03-02T16:54:26+09:00</lastmod>
+  </url><url>
+    <loc>https://e6d1fe.github.io/e6d1fe-blog/tags/intl/</loc>
+    <lastmod>2024-03-02T16:54:26+09:00</lastmod>
+  </url><url>
+    <loc>https://e6d1fe.github.io/e6d1fe-blog/post/javascript/intl/</loc>
+    <lastmod>2024-03-02T16:54:26+09:00</lastmod>
+  </url><url>
+    <loc>https://e6d1fe.github.io/e6d1fe-blog/tags/javascript/</loc>
+    <lastmod>2024-03-02T16:54:26+09:00</lastmod>
+  </url><url>
+    <loc>https://e6d1fe.github.io/e6d1fe-blog/categories/javascript/</loc>
+    <lastmod>2024-03-02T16:54:26+09:00</lastmod>
+  </url><url>
+    <loc>https://e6d1fe.github.io/e6d1fe-blog/post/</loc>
+    <lastmod>2024-03-02T16:54:26+09:00</lastmod>
+  </url><url>
+    <loc>https://e6d1fe.github.io/e6d1fe-blog/tags/</loc>
+    <lastmod>2024-03-02T16:54:26+09:00</lastmod>
+  </url><url>
     <loc>https://e6d1fe.github.io/e6d1fe-blog/tags/async/</loc>
     <lastmod>2024-03-01T16:54:26+09:00</lastmod>
   </url><url>
@@ -9,21 +33,6 @@
     <lastmod>2024-03-01T16:54:26+09:00</lastmod>
   </url><url>
     <loc>https://e6d1fe.github.io/e6d1fe-blog/tags/await/</loc>
-    <lastmod>2024-03-01T16:54:26+09:00</lastmod>
-  </url><url>
-    <loc>https://e6d1fe.github.io/e6d1fe-blog/categories/</loc>
-    <lastmod>2024-03-01T16:54:26+09:00</lastmod>
-  </url><url>
-    <loc>https://e6d1fe.github.io/e6d1fe-blog/</loc>
-    <lastmod>2024-03-01T16:54:26+09:00</lastmod>
-  </url><url>
-    <loc>https://e6d1fe.github.io/e6d1fe-blog/tags/javascript/</loc>
-    <lastmod>2024-03-01T16:54:26+09:00</lastmod>
-  </url><url>
-    <loc>https://e6d1fe.github.io/e6d1fe-blog/categories/javascript/</loc>
-    <lastmod>2024-03-01T16:54:26+09:00</lastmod>
-  </url><url>
-    <loc>https://e6d1fe.github.io/e6d1fe-blog/post/</loc>
     <lastmod>2024-03-01T16:54:26+09:00</lastmod>
   </url><url>
     <loc>https://e6d1fe.github.io/e6d1fe-blog/tags/promise/</loc>
@@ -36,9 +45,6 @@
     <lastmod>2024-03-01T16:54:26+09:00</lastmod>
   </url><url>
     <loc>https://e6d1fe.github.io/e6d1fe-blog/post/javascript/script-tag/</loc>
-    <lastmod>2024-03-01T16:54:26+09:00</lastmod>
-  </url><url>
-    <loc>https://e6d1fe.github.io/e6d1fe-blog/tags/</loc>
     <lastmod>2024-03-01T16:54:26+09:00</lastmod>
   </url><url>
     <loc>https://e6d1fe.github.io/e6d1fe-blog/tags/array/</loc>
