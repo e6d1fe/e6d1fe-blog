@@ -6,7 +6,42 @@
         <description>Recent content in JavaScript on e6d1fe</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Sat, 02 Mar 2024 16:54:26 +0900</lastBuildDate><atom:link href="https://e6d1fe.github.io/e6d1fe-blog/tags/javascript/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 13 Mar 2024 09:43:22 +0900</lastBuildDate><atom:link href="https://e6d1fe.github.io/e6d1fe-blog/tags/javascript/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Closure</title>
+        <link>https://e6d1fe.github.io/e6d1fe-blog/post/javascript/closure/</link>
+        <pubDate>Wed, 13 Mar 2024 09:43:22 +0900</pubDate>
+        
+        <guid>https://e6d1fe.github.io/e6d1fe-blog/post/javascript/closure/</guid>
+        <description>&lt;h2 id=&#34;closure&#34;&gt;Closure&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&amp;ldquo;the combination of a function bundled together (enclosed) with references to its surrounding state (the lexical environment)&amp;rdquo;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;➡️ 클로저는 내부 함수가 외부 함수의 스코프에 접근할 수 있도록 함&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;lexical scoping&lt;/strong&gt;: 함수가 사용 가능한 범위가 &lt;strong&gt;함수가 선언된 위치&lt;/strong&gt;에 따라 결정되는 것&lt;/p&gt;
+&lt;hr&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;makeFunc&lt;/span&gt;() {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;const&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;name&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;Mozilla&amp;#39;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;displayName&lt;/span&gt;() {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;console&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;log&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;name&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;displayName&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;const&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;myFunc&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;makeFunc&lt;/span&gt;();
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;myFunc&lt;/span&gt;(); &lt;span style=&#34;color:#75715e&#34;&gt;// Mozilla
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;code&gt;displayName&lt;/code&gt;이라는 내부 함수는 실행되기 전에 반환되는데, 이 코드는 어떻게 작동하는 걸까?&lt;br&gt;
+&lt;code&gt;makeFunc&lt;/code&gt; 함수가 실행 종료되면 그 안에 있는 로컬 변수 &lt;code&gt;name&lt;/code&gt;은 더이상 접근 불가능한 것 아닌가?&lt;/p&gt;
+&lt;p&gt;이게 가능한 이유: &lt;strong&gt;자바스크립트 함수는 클로저를 생성하기 때문&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;렉시컬 환경은 클로저가 생성되었을 때 스코프 내에 있던 로컬 변수를 포함함&lt;/li&gt;
+&lt;li&gt;위 에제에서 &lt;code&gt;myFunc&lt;/code&gt;: &lt;code&gt;makeFunc&lt;/code&gt;가 실행됐을 때 생성된 &lt;code&gt;displayName&lt;/code&gt; 함수의 instance의 참조&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;displayName&lt;/code&gt;의 instance는 &lt;strong&gt;생성될 당시의 lexical environment의 참조&lt;/strong&gt;를 유지함 (그 lexical environment 내에 &lt;code&gt;name&lt;/code&gt; 변수가 존재)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;그래서 &lt;code&gt;myFunc&lt;/code&gt; 함수를 실행했을 때 &lt;code&gt;name&lt;/code&gt; 변수에 접근이 가능한 것 !&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;You can use a closure anywhere that you might normally use an object with only a single method.&lt;br&gt;
+It can also be used to define public functions that can access private functions and variables.&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>intl</title>
         <link>https://e6d1fe.github.io/e6d1fe-blog/post/javascript/intl/</link>
         <pubDate>Sat, 02 Mar 2024 16:54:26 +0900</pubDate>
